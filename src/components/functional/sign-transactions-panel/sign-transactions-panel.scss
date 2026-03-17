@@ -1,0 +1,36 @@
+.trim {
+  @apply drt:flex drt:relative drt:max-w-full drt:overflow-hidden drt:whitespace-nowrap;
+}
+
+.trim-full {
+  @apply drt:text-transparent drt:absolute drt:leading-5;
+}
+
+.trim-full-visible {
+  @apply drt:text-inherit drt:relative drt:leading-5;
+}
+
+.trim-wrapper {
+  @apply drt:hidden;
+}
+
+.trim-wrapper-visible {
+  @apply drt:overflow-hidden drt:max-w-full drt:flex;
+}
+
+.trim-left-wrapper {
+  @apply drt:flex-shrink drt:text-ellipsis drt:overflow-hidden drt:text-left drt:text-[1px];
+}
+
+.trim-left {
+  @apply drt:select-none drt:pointer-events-none drt:inline drt:text-base drt:leading-5;
+}
+
+.trim-right-wrapper {
+  @apply drt:flex-shrink drt:text-ellipsis drt:overflow-hidden drt:whitespace-nowrap drt:text-right drt:text-[1px];
+  direction: rtl;
+}
+
+.trim-right {
+  @apply drt:select-none drt:pointer-events-none drt:inline drt:text-base drt:leading-5 drt:text-clip;
+}

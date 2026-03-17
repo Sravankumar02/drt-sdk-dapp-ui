@@ -1,0 +1,27 @@
+import type { IProviderBase } from 'types/provider.types';
+import { ProviderTypeEnum } from 'types/provider.types';
+
+export const getProviderIntroText = ({
+  providerType,
+  isLogin,
+}: {
+  providerType?: IProviderBase['type'];
+  isLogin?: boolean;
+}) => {
+  const loginText = isLogin ? 'connect to your wallet.' : 'sign the transaction.';
+
+  switch (providerType) {
+    case ProviderTypeEnum.extension:
+      return `Open the DharitrI Browser Extension to ${loginText}`;
+    case ProviderTypeEnum.metamask:
+      return `Open the Metamask Browser Extension to ${loginText}`;
+    case ProviderTypeEnum.passkey:
+      return 'Use your predefined passkey to sign the transaction.';
+    case ProviderTypeEnum.walletConnect:
+      return `Open Tdharitri to ${loginText}`;
+    case ProviderTypeEnum.crossWindow:
+      return `Go to DharitrI Web Wallet to ${loginText}`;
+    default:
+      return `Go to your connected provider to ${loginText}`;
+  }
+};

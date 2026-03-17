@@ -1,0 +1,8 @@
+// prettier-ignore
+export default {
+    sidePanelWrapper: 'side-panel-wrapper drt:flex drt:justify-end drt:items-start drt:z-50 drt:pointer-events-none drt:invisible drt:xs:fixed drt:xs:top-0 drt:xs:left-0 drt:xs:right-0 drt:xs:bottom-0 drt:xs:p-4 drt:xs:pr-0 drt:xs:items-center drt:before:opacity-0 drt:before:left-0 drt:before:top-0 drt:before:right-0 drt:before:bottom-0 drt:before:transition-all drt:before:absolute drt:before:duration-200 drt:before:pointer-events-none drt:before:ease-in-out drt:before:bg-neutral-900 drt:before:content-[""] drt:before:supports-[backdrop-filter]:opacity-50 drt:before:supports-[backdrop-filter]:backdrop-blur-sm drt:before:supports-[backdrop-filter]:bg-neutral-900',
+    sidePanelWrapperVisible: 'side-panel-wrapper-visible drt:!pointer-events-auto drt:!visible drt:before:!opacity-90 drt:before:supports-[backdrop-filter]:!opacity-50',
+    sidePanel: 'side-panel drt:p-6 drt:w-full drt:flex drt:overflow-hidden drt:flex-col drt:transition-all drt:ease-in-out drt:duration-200 drt:rounded-tl-3xl drt:rounded-tr-3xl drt:backdrop-blur drt:pb-0 drt:border drt:border-outline drt:bg-surface drt:xs:w-110 drt:xs:h-full drt:xs:mr-4 drt:xs:rounded-[20px] drt:xs:translate-x-[calc(100%+48px)] drt:after:left-0 drt:after:right-0 drt:after:h-0 drt:after:absolute drt:after:shadow-lg drt:after:shadow-surface drt:after:-bottom-1 drt:after:content-[""]',
+    sidePanelVisible: 'side-panel-visible drt:!transform drt:!translate-y-0 drt:xs:!translate-x-0',
+    sidePanelContent: 'side-panel-content drt:flex-1 drt:flex drt:flex-col drt:overflow-auto drt:scrollbar-hide'
+} satisfies Record<string, string>;
