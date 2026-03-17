@@ -1,0 +1,23 @@
+// prettier-ignore
+export default {
+  signTransactionsFooterContainer: 'sign-transactions-footer-container drt:flex drt:flex-col drt:flex-1 drt:h-full',
+  signTransactionsFooter: 'sign-transactions-footer drt:mt-auto drt:flex drt:flex-col drt:items-center drt:pt-5 drt:gap-5 drt:text-center',
+  signTransactionsFooterButtons: 'sign-transactions-footer-buttons drt:flex drt:items-center drt:w-full drt:gap-3',
+  signTransactionsFooterButtonWrapper: 'sign-transactions-footer-button-wrapper drt:relative drt:flex drt:flex-col drt:flex-1',
+  signTransactionsFooterButtonWrapperCancel: 'sign-transactions-footer-button-wrapper-cancel drt:w-32 drt:max-w-32',
+  signTransactionsFooterButtonTooltipWrapper: 'sign-transactions-footer-button-tooltip-wrapper drt:absolute drt:inset-0',
+  signTransactionsFooterButton: 'sign-transactions-footer-button drt:flex',
+  signTransactionsFooterButtonIcon: 'sign-transactions-footer-button-icon drt:flex drt:transition-all drt:duration-200 drt:ease-in-out',
+  signTransactionsFooterButtonIconLighter: 'sign-transactions-footer-button-icon-lighter drt:fill-secondary-text',
+  signTransactionsFooterIdentity: 'sign-transactions-footer-identity drt:max-w-64 drt:flex drt:items-center drt:text-base drt:gap-2 drt:overflow-hidden',
+  signTransactionsFooterIdentityLabel: 'sign-transactions-footer-identity-label drt:whitespace-nowrap drt:text-secondary-text',
+  signTransactionsFooterIdentityAddress: 'sign-transactions-footer-identity-address drt:text-primary',
+  signTransactionsTrimWrapper: 'sign-transactions-trim-wrapper drt:items-end drt:leading-none',
+  signTransactionsFooterIdentityUsername: 'sign-transactions-footer-identity-username drt:flex drt:items-center drt:text-base drt:text-primary',
+  signTransactionsFooterIdentityUsernamePrefix: 'sign-transactions-footer-identity-username-prefix drt:text-accent',
+  signTransactionsFooterIdentityCopy: 'sign-transactions-footer-identity-copy drt:text-primary',
+  signTransactionsButtonTooltip: 'sign-transactions-button-tooltip drt:absolute drt:top-0 drt:h-12 drt:left-0 drt:right-0',
+  signTransactionsActionButton: 'sign-transactions-action-button drt:text-base! drt:w-full',
+  signTransactionsButtonDisabled: 'sign-transactions-button-disabled drt:pointer-events-none drt:!bg-transparent drt:cursor-default drt:border drt:border-secondary-text drt:!text-secondary-text drt:hover:opacity-100',
+  signTransactionsExplorerLinkIcon: 'sign-transactions-explorer-link-icon drt:text-primary',
+} satisfies Record<string, string>;

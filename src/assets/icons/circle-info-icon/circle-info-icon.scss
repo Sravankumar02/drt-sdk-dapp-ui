@@ -1,0 +1,7 @@
+:host {
+  @apply drt:flex;
+
+  .circle-info-icon {
+    @apply drt:w-4 drt:h-4 drt:fill-inherit;
+  }
+}

@@ -1,0 +1,429 @@
+# Change Log
+
+All notable changes will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [[0.1.23](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/308)] - 2026-02-20
+
+- [Fixed addressTable data-testid & markup](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/307)
+
+## [[0.1.22](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/306)] - 2026-02-20
+
+- [Added part attributes to SidePanel and SignTransactions ](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/306)
+
+## [[0.1.21](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/305)] - 2026-02-11
+
+- [Fixed `data-testid` on button](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/305)
+
+## [[0.1.20](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/304)] - 2026-02-11
+
+- [Fied `data-testid`s](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/303)
+
+## [[0.1.19](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/302)] - 2026-01-29
+
+- [Fixed duplicated `data-testid` on `drt-button` host and inner `<button>`](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/302)
+
+## [[0.1.18](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/301)] - 2026-01-29
+
+- [Refactor AddressTable styles to use min-width instead of width for better responsiveness](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/300)
+
+## [[0.1.17](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/299)] - 2026-01-27
+
+- [Added shard icon to address table and hover on button](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/299)
+
+## [[0.1.16](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/298)] - 2026-01-27
+
+- [Add part attributes to Button, AddressTable, and Pagination components for improved external styling capabilities](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/298)
+
+## [[0.1.15](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/296)] - 2026-01-26
+
+- [Fixed helpers export](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/296)
+
+## [[0.1.14](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/295)] - 2026-01-26
+
+- [Fixed emit page value when page changes](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/295)
+
+## [[0.1.13](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/293)] - 2026-01-20
+
+- [Fixed data-testid attributes](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/293)
+- [Fixed Button data-testid attribute](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/292)
+
+## [[0.1.12](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/291)] - 2026-01-15
+
+- [Fixed issue with sheetDismiss on SidePanelSwiper](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/290)
+
+## [[0.1.11](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/289)] - 2026-01-14
+
+- [Fixed cancel login event on unlock panel](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/289)
+- [Refactored side panel helper to `getAnimationDelay`](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/287)
+
+## [[0.1.9](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/286)] - 2026-01-13
+
+- [Added provider selection handling to unlock panel](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/285)
+- [Remove pagination webcomponent](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/282)
+
+## [[0.1.8](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/283)] - 2025-12-30
+
+- [Fix publish script, fix WalletConnect issues](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/283)
+
+## [[0.1.7](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/281)] - 2025-12-11
+
+- [Fixed compatibility issue on stencil/core](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/279)
+
+## [[0.1.6](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/277)] - 2025-12-09
+
+- [Fixed compatibility issue on stencil/core](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/279)
+
+## [[0.1.6](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/277)] - 2025-12-09
+
+- [Sync development with main](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/278)
+- [Fixed copy button](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/276)
+
+## [[0.1.5](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/275)] - 2025-12-08
+
+- [Refactored transaction list item](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/274)
+- [Refactored side panel components](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/271)
+- [Fixed trimmed address not showing in address-table](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/273)
+- [Added minimize/maximize action for toasts](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/272)
+- [Eslint and prettierrc fixes](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/270)
+- [Refactored sign transactions panel internal components](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/267)
+
+## [[0.1.4](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/269)] - 2025-11-21
+
+- [Added Vue.js component outputs](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/268)
+
+## [[0.1.3](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/266)] - 2025-11-12
+
+- [Added skip tests if PR is in draft](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/265)
+- [Refactored unlock panel components](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/255)
+- [Added github release on publish](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/264)
+
+## [[0.1.2](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/263)] - 2025-11-06
+
+- [Added expose EventBus from utils](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/262)
+
+## [[0.1.1](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/261)] - 2025-11-03
+
+- [Added cjs for utility functions](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/260)
+
+## [[0.1.0](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/256)] - 2025-10-29
+
+- [Fixed trim component state](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/259)
+- [Fixed main conflicts with main branch](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/257)
+- [Changed ppu to gasPriceOption in sign transactions panel](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/255)
+- [Fixed icons on batch transactions toast](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/253)
+- [Added enum for transaction status](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/254)
+- [Fixed finished toasts loader](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/252)
+- [Refactored utility components](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/249)
+
+## [[0.0.36](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/251)] - 2025-10-15
+
+- [Updated icons type](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/250)
+- [Added the Storybook as a live server deployment](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/248)
+- [Updated icons type](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/250)
+- [Added the Storybook as a live server deployment](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/248)
+- [Refactor components in transactions table](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/243)
+
+## [[0.0.35](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/246)] - 2025-10-10
+
+- [Added passkey provider](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/242)
+
+## [[0.0.34](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/238)] - 2025-10-09
+
+- [Added intro screens waiting for provider message](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/239)
+- [Updated Storybook stories of utility elements to accept property changes from the interface](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/237)
+- [Refactor Tailwind CSS & FontAwesome icons](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/236)
+- [Updated Tailwind classes to be accessed from the markup instead of CSS files](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/227)
+
+## [[0.0.33](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/235)] - 2025-09-29
+
+- [Fixed toast large amount not showing](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/234)
+- [Removed passkey components](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/233)
+- [Display provider name in advanced signing](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/232)
+
+## [[0.0.32](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/231)] - 2025-09-26
+
+- [Expose `getDetectedBrowser`](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/230)
+
+## [[0.0.31](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/229)] - 2025-09-25
+
+- [Updated simple toast styles](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/228)
+- [Updated custom toast styles](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/226)
+- [Updated icons to leverage on new centralised component](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/219)
+
+## [[0.0.30](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/224)] - 2025-09-22
+
+- [Bring back stencil/react-output-target](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/224)
+
+## [[0.0.29](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/223)] - 2025-09-22
+
+- [Fixed stencil/core dependency and added hasCloseButton flag to custom toasts](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/222)
+
+## [[0.0.28](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/220)] - 2025-09-19
+
+- [Added testIds on toast details](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/221)
+- [Updated icon and styles on toast](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/218)
+- [Added exports for individual components](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/217)
+- [Updated warning banner on ledger confirm screen](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/216)
+- [Moved unnecessary dependencies to devDependencies](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/215)
+- [Enhanced toast styles for long identifier case](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/214)
+- [Updated styles on toast](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/213)
+
+## [[0.0.27](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/209)] - 2025-08-26
+
+- [Added the "DataWithExplorerLink" component and enhanced the "Trim" component](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/208)
+- [Fixed issue with consecutive custom toasts](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/207)
+- [Updated the CopyButton and ExplorerLink to be more flexible, adding Storybook stories](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/206)
+- [Added slider to transactions table](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/205)
+
+## [[0.0.26](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/204)] - 2025-08-15
+
+- [Updated transactions table styles](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/203)
+- [Updated the "copy-button" component for easier customisation](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/202)
+- [Removed Trim unrelated styling](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/201)
+- [Fixed issue with transaction toast title](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/200)
+
+## [[0.0.25](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/199)] - 2025-08-12
+
+- [Fixed issue with transaction toast progress](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/198)
+
+## [[0.0.24](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/197)] - 2025-08-08
+
+- [Fixed publish registry](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/196)
+- [Fixed publish workflow errors](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/193)
+- [Fixed conflicts in main from development](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/190)
+- [Fixed chrome setup in github workflow](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/189)
+- [Fixed the Storybook manually outputted Tailwind file to scan SCSS files](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/185)
+- [Removed debounce from sign transactions button](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/184)
+- [Added generic Button component](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/183)
+- [Added Storybook support](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/180)
+
+## [[0.0.23](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/182)] - 2025-08-04
+
+- [Updated styles on transaction table](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/181)
+
+## [[0.0.22](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/179)] - 2025-08-01
+
+- [Fixed side panel overflow and testids](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/178)
+- [Fixed issue with icon parser in copy-button](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/177)
+
+## [[0.0.21](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/177)] - 2025-07-30
+
+- [Added sign transactions panel data-testids](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/176)
+
+## [[0.0.20](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/175)] - 2025-07-25
+
+- [Added browser detection](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/174)
+
+## [[0.0.19](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/173)] - 2025-07-23
+
+- [Added getElementByDataTestIdDeep utility function for tests](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/172)
+- [Updated data-theme](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/171)
+
+## [[0.0.18](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/170)] - 2025-07-22
+
+- [Fixed typo in ledger confirm](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/170)
+
+## [[0.0.17](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/169)] - 2025-07-21
+
+- [Fixed typo in ledger confirm](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/169)
+
+## [[0.0.16](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/168)] - 2025-07-18
+
+- [Updated styles on close icon](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/167)
+
+## [[0.0.15](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/165)] - 2025-07-15
+
+- [Removed cjs from bundle](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/164)
+
+## [[0.0.14](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/163)] - 2025-07-14
+
+- [Updates on styles for templates.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/162)
+
+## [[0.0.13](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/161)] - 2025-07-10
+
+- [UI updates on icons for failed transactions and Firefox extension.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/160)
+
+## [[0.0.12](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/159)] - 2025-07-10
+
+- [Added Check your device text on ledger connect](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/158)
+- [Fixed close button on transaction toast.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/157)
+- [Fixed issue with tDharitri back button on login screen](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/156)
+- [Fixed transaction toast loading](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/155)
+- [Updates on unlock panel and install links.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/153)
+
+## [[0.0.11](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/152)] - 2025-07-08
+
+- [UI fixes on scrollbar, icons and unlock panel.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/150)
+
+## [[0.0.10](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/149)] - 2025-07-04
+
+- [Fixed batch transactions order in toast.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/148)
+- [Renamed and exposed `ledger-addresses` into `address-table`](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/147)
+
+## [[0.0.9](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/145)] - 2025-07-03
+
+- [Fixed icons max width / height in toasts.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/143)
+- [Refactor color variable names to avoid Tailwind naming conflicts](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/142)
+- [Added dataTestId to unlock panel provider button](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/141)
+- [Added swipe functionality for the mobile side panel](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/140)
+
+## [[0.0.8](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/138)] - 2025-06-30
+
+- [Fixed images not displaying in the unlock panel.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/137)
+- [Added deep link tDharitri connection support on mobile](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/136)
+- [Added copy button for transaction hash in toasts.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/135)
+- [Updated variables for switching the theme.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/134)
+
+## [[0.0.7](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/130)] - 2025-06-23
+
+- [Fixed Ledger connect header close button not working](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/129)
+- [Fixed the ExplorerLink shadow DOM status and layout](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/128)
+- [Updated the Ledger mobile layout and converted styles to Tailwind](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/127)
+- [Unify colors in global variables for light / dark themes](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/126)
+- [Removed Satoshi font and allow custom fonts from dApp](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/125)
+- [Updated Unlock Panel to be responsive and mobile friendly](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/124)
+- [Mobile version for notifications feed](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/123)
+- [Updated the CSS to leverage on Tailwind classes in multiple elements](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/122)
+- [Added "data" field decoding methods support](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/121)
+- [Updated README](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/120)
+- [Migrate styles from css to tailwind](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/119)
+- [Added dynamic gas](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/118)
+
+## [[0.0.6](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/117)] - 2025-05-30
+
+- [Refactor Transactions Table types][https://github.com/terradharitri/drt-sdk-dapp-ui/pull/116]
+
+## [[0.0.5](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/115)] - 2025-05-29
+
+- [Updated Sign Transactions layout][https://github.com/terradharitri/drt-sdk-dapp-ui/pull/114]
+- [Disable sourceMap files][https://github.com/terradharitri/drt-sdk-dapp-ui/pull/113]
+
+## [[0.0.4](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/112)] - 2025-05-26
+
+- [Clean up unlock panel](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/111)
+- [Improve maintainability and user experience for transaction-related panels, notifications, and event handling](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/110)
+- [Added devtools for event tracking](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/109)
+
+## [[0.0.0](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/108)] - 2025-05-20
+
+- [Renamed project](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/107)
+- [Sync anchor with sdk-dapp](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/106)
+- [Sign screens enhancements](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/102)
+- [Added sign screens](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/93)
+- [Enhance icon handling to support both `IconDefinition` and string icon names](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/104)
+- [Remove force update](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/103)
+- [Added scripts for excluded components](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/101)
+- [Refactor and enhance the LedgerFlow, UnlockPanel, and WalletConnect components to improve modularity, maintainability, and user experience.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/100)
+- [Add back navigation functionality to SignTransactionsPanel](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/105)
+- [Sync anchor with sdk-dapp](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/106)
+- [Sign screens enhancements](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/102)
+- [Added sign screens](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/93)
+- [Enhance icon handling to support both `IconDefinition` and string icon names](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/104)
+- [Remove force update](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/103)
+- [Added scripts for excluded components](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/101)
+- [Refactor and enhance the LedgerFlow, UnlockPanel, and WalletConnect components to improve modularity, maintainability, and user experience.](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/100)
+
+## [[0.0.0-alpha.15](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/94)] - 2025-05-07
+
+- [Updated styles on notifications feed](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/97)
+- [Updated provider pending screen in sign flow](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/98)
+- [Fixed build error require utils](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/94)
+
+## [[0.0.0-alpha.14](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/93)] - 2025-05-07
+
+- [Fixed ledger double screen](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/91)
+- [Added Ledger address table preloaders](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/90)
+- [Added providers customization support](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/89)
+- [Fixed sign transactions button states](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/87)
+
+## [[0.0.0-alpha.13](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/88)] - 2025-05-02
+
+- [Fixed bubbling events](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/86)
+- [Updated the Ledger authentication flow layout](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/85)
+- [Added cancel login](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/84)
+- [Added `usdValue` to ledger accounts](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/83)
+- [Updated tDharitri authentication flow layout](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/80)
+- [Fix stencil-tailwind-plugin build error in monorepo](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/79)
+
+## [[0.0.0-alpha.12](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/78)] - 2025-04-10
+
+- [Add stencil-tailwind-plugin for tailwind v4](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/77)
+
+## [[0.0.0-alpha.11](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/76)] - 2025-04-09
+
+- [Added prefix to functional and controlled components](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/75)
+- [Added prefix to common and controlled components](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/72)
+- [Updated the layout for the new unlock panel](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/67)
+
+## [[0.0.0-alpha.10](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/70)] - 2025-03-31
+
+- [Toasts design](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/66)
+- [Upgrade Tailwind to v4](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/65)
+
+## [[0.0.0-alpha.9](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/64)] - 2025-03-19
+
+- [Fixed sign transactions panel and component](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/63)
+- [Fixed loader export](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/62)
+- [Migrated modals to side panels](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/61)
+
+## [[0.0.0-alpha.8](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/60)] - 2025-03-18
+
+- [Fix react output config](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/59)
+
+## [[0.0.0-alpha.7](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/58)] - 2025-03-18
+
+- [Refactor package compile](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/57)
+- [Added gasPrice PPU editing radios](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/56)
+- [Added gasPrice editing radios](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/52)
+- [Added notifications feed side panel](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/50)
+- [Added Tailwind CSS support](https://github.com/terradharitri/drt-sdk-dapp/pull/47)
+
+## [[0.0.0-alpha.6](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/53)] - 2025-03-12
+
+- [Added notifications feed side panel](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/50)
+- [Added Tailwind CSS support](https://github.com/terradharitri/drt-sdk-dapp/pull/47)
+- [Added wallet connect side panel component](https://github.com/terradharitri/drt-sdk-dapp/pull/45)
+
+## [[0.0.0-alpha.5](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/49)] - 2025-02-27
+
+- [Added ability to expand/collapse transactions in toast](https://github.com/terradharitri/drt-sdk-dapp/pull/48)
+- [Added ability to close modal on Escape](https://github.com/terradharitri/drt-sdk-dapp/pull/46)
+- [Added wallet connect side panel component](https://github.com/terradharitri/drt-sdk-dapp/pull/45)
+- [Added missing components from excludeComponents stancil config](https://github.com/terradharitri/drt-sdk-dapp/pull/44)
+- [Added wallet connect side panel support](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/43)
+- [Added unlock panel](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/42)
+
+## [[0.0.0-alpha.4](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/41)] - 2025-02-18
+
+- [Added react-output-target](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/41)
+
+## [[0.0.0-alpha.3](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/40)] - 2025-02-18
+
+- [Refactored components folders](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/37)
+- [Added tests workflow](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/36)
+- [Added transactions-table test](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/34)
+- [Fixed TrimText component](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/33)
+- [Added copy, trim and explorer link on toasts](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/32)
+- [Enhance toast progress component](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/31)
+- [Added transactions table styling](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/30)
+- [Added react output config](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/29)
+- [Added Trim and CopyButton components](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/28)
+- [Added transaction account](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/27)
+- [Clean package.json export](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/26)
+- [Updated transactions table props](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/25)
+
+## [[0.0.0-alpha.2](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/24)] - 2025-01-27
+
+- [Fixed generic modal event warning](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/23)
+- [Added transactions table component](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/22)
+- [Added custom notification support](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/21)
+
+## [[0.0.0-alpha.1](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/16)] - 2025-01-20
+
+- [Updated formatAmount component and removed dependencies](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/17)
+- [Updated formatAmount component](https://github.com/terradharitri/drt-sdk-dapp-ui/pull/15)
