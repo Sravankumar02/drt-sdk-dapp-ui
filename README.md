@@ -23,25 +23,25 @@ See [Template dApp](https://template-dapp.dharitri.org/) for live demo or checko
 
 ## Distribution
 
-[npm](https://www.npmjs.com/package/@terradharitri/sdk-dapp-ui)
+[npm](https://www.npmjs.com/package/@sravankumar02/sdk-dapp-ui)
 
 ## Installation
 
 The library can be installed via npm or yarn.
 
 ```bash
-npm install @terradharitri/sdk-dapp-ui
+npm install @sravankumar02/sdk-dapp-ui
 ```
 
 or
 
 ```bash
-yarn add @terradharitri/sdk-dapp-ui
+yarn add @sravankumar02/sdk-dapp-ui
 ```
 
 ## Usage
 
-`sdk-dapp-ui` library is primarily designed to work with [@terradharitri/sdk-dapp](https://www.npmjs.com/package/@terradharitri/sdk-dapp), since components are designed to display data and emit user events, but do not hold any business logic.
+`sdk-dapp-ui` library is primarily designed to work with [@sravankumar02/sdk-dapp](https://www.npmjs.com/package/@sravankumar02/sdk-dapp), since components are designed to display data and emit user events, but do not hold any business logic.
 
 The basic usage of the components would be importing the component and its corresponding interface and creating a wrapper for it in your application.
 
@@ -50,7 +50,7 @@ It outputs both web components (working out of the box) and React components (yo
 ### React Components import
 
 ```tsx
-export { DrtCopyButton, DrtExplorerLink, DrtFormatAmount, DrtTransactionsTable } from '@terradharitri/sdk-dapp-ui/react';
+export { DrtCopyButton, DrtExplorerLink, DrtFormatAmount, DrtTransactionsTable } from '@sravankumar02/sdk-dapp-ui/react';
 ```
 
 The library is divided into three main categories of components:
@@ -74,9 +74,9 @@ Components:
 ### Visual Component Example
 
 ```tsx
-export { getStore } from '@terradharitri/sdk-dapp/out/store/store';
-export type { ExplorerLink as ExplorerLinkSDKPropsType } from '@terradharitri/sdk-dapp-ui/dist/types/components/visual/explorer-link/explorer-link.d.ts';
-export { networkSelector } from '@terradharitri/sdk-dapp/out/store/selectors/networkSelectors';
+export { getStore } from '@sravankumar02/sdk-dapp/out/store/store';
+export type { ExplorerLink as ExplorerLinkSDKPropsType } from '@sravankumar02/sdk-dapp-ui/dist/types/components/visual/explorer-link/explorer-link.d.ts';
+export { networkSelector } from '@sravankumar02/sdk-dapp/out/store/selectors/networkSelectors';
 import { IPropsWithClass, IPropsWithChildren } from 'types';
 
 interface ExplorerLinkPropsType extends Partial<ExplorerLinkSDKPropsType> {
@@ -115,10 +115,10 @@ Components:
 ### Controlled Component Example
 
 ```tsx
-import { TransactionsTableController } from '@terradharitri/sdk-dapp/out/controllers/TransactionsTableController';
-import { accountSelector } from '@terradharitri/sdk-dapp/out/store/selectors/accountSelectors';
-import { networkSelector } from '@terradharitri/sdk-dapp/out/store/selectors/networkSelectors';
-import { getStore } from '@terradharitri/sdk-dapp/out/store/store';
+import { TransactionsTableController } from '@sravankumar02/sdk-dapp/out/controllers/TransactionsTableController';
+import { accountSelector } from '@sravankumar02/sdk-dapp/out/store/selectors/accountSelectors';
+import { networkSelector } from '@sravankumar02/sdk-dapp/out/store/selectors/networkSelectors';
+import { getStore } from '@sravankumar02/sdk-dapp/out/store/store';
 
 export const TransactionsTable = () => {
   const store = getStore();
@@ -149,7 +149,7 @@ Components:
 - **Toast List** (`drt-toast-list`): Notification management
 - **Ledger Connect** (`drt-ledger-connect`): Hardware wallet connection
 
-You can check out the way these components are used in `@terradharitri/sdk-dapp` [here](https://github.com/terradharitri/drt-sdk-dapp/blob/main/src/managers/UnlockPanelManager/UnlockPanelManager.ts).
+You can check out the way these components are used in `@sravankumar02/sdk-dapp` [here](https://github.com/terradharitri/drt-sdk-dapp/blob/main/src/managers/UnlockPanelManager/UnlockPanelManager.ts).
 
 ## Debugging your dApp
 
